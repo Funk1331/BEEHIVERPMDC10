@@ -12,24 +12,22 @@
   <style>
     body {
       font-family: 'Inter', sans-serif;
-      background-color: #0a0c10;
-      color: #e2e8f0;
+      background-color: #020617; /* Dark Slate Blue */
+      color: #f1f5f9;
       overflow-x: hidden;
       user-select: none;
     }
     .mono { font-family: 'JetBrains Mono', monospace; }
     textarea { user-select: text; }
     ::-webkit-scrollbar { width: 6px; }
-    ::-webkit-scrollbar-track { background: #0a0c10; }
-    ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 10px; }
-    ::-webkit-scrollbar-thumb:hover { background: #334155; }
+    ::-webkit-scrollbar-track { background: #020617; }
+    ::-webkit-scrollbar-thumb { background: #2563eb; border-radius: 10px; }
+    ::-webkit-scrollbar-thumb:hover { background: #3b82f6; }
     @media print {
       nav, footer, aside, .no-print { display: none !important; }
       main { width: 100% !important; height: auto !important; overflow: visible !important; }
     }
   </style>
-
-<link rel="stylesheet" href="/index.css">
 <script type="importmap">
 {
   "imports": {
@@ -41,9 +39,11 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="./assets/index-Bzft4FPK.js"></script>
+<link rel="stylesheet" href="/index.css">
 </head>
 <body>
   <div id="root"></div>
+  <script type="module" src="./index.tsx"></script>
+<script type="module" src="/index.tsx"></script>
 </body>
 </html>
